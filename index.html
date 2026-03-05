@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAFÉ LUMIÈRE | こだわりのコーヒーと空間</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#" class="nav__logo">CAFÉ LUMIÈRE</a>
+      <ul class="nav__links">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#contact" class="nav__cta">RESERVATION</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">ABOUT</a></li>
+      <li><a href="#menu" class="mobile-link">MENU</a></li>
+      <li><a href="#gallery" class="mobile-link">GALLERY</a></li>
+      <li><a href="#access" class="mobile-link">ACCESS</a></li>
+      <li><a href="#contact" class="mobile-link">RESERVATION</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__sub fade-up">Specialty Coffee & Artisan Pastry</p>
+      <h1 class="hero__title fade-up delay-1">一杯の光に、<br/>出会いに来て。</h1>
+      <p class="hero__desc fade-up delay-2">豆の選定から丁寧な焙煎まで、<br/>すべての工程にこだわった一杯をご用意しています。</p>
+      <a href="#menu" class="hero__btn fade-up delay-3">EXPLORE MENU</a>
+    </div>
+    <div class="hero__scroll">
+      <span>SCROLL</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__images">
+          <div class="about__img about__img--main">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=700&q=80" alt="コーヒーカップ" />
+          </div>
+          <div class="about__img about__img--sub">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="カフェ内装" />
+          </div>
+        </div>
+        <div class="about__text">
+          <span class="section__label">OUR STORY</span>
+          <h2 class="section__title">光と豆が織りなす、<br/>ひとときの物語。</h2>
+          <p>CAFÉ LUMIÈREは2018年、東京・中目黒に誕生しました。「光」を意味するその名の通り、窓から差し込む自然光と、丁寧に淹れたコーヒーの香りに包まれた空間を大切にしています。</p>
+          <p>世界各地のシングルオリジンの豆を厳選し、バリスタが一杯ずつ心を込めて抽出。コーヒーとともに過ごすひとときが、あなたの日常に小さな輝きをもたらしますように。</p>
+          <div class="about__stats">
+            <div class="stat">
+              <strong>12+</strong>
+              <span>種類のシングルオリジン</span>
+            </div>
+            <div class="stat">
+              <strong>7</strong>
+              <span>年の歴史</span>
+            </div>
+            <div class="stat">
+              <strong>100%</strong>
+              <span>スペシャルティコーヒー</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features">
+    <div class="container">
+      <div class="features__grid">
+        <div class="feature">
+          <div class="feature__icon"><i class="fas fa-coffee"></i></div>
+          <h3>Specialty Coffee</h3>
+          <p>SCA認定バリスタによる、世界基準のスペシャルティコーヒー。</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon"><i class="fas fa-leaf"></i></div>
+          <h3>Organic Ingredients</h3>
+          <p>国産・有機栽培にこだわった食材だけを使用しています。</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon"><i class="fas fa-spa"></i></div>
+          <h3>Relaxing Space</h3>
+          <p>BGMも光も計算された、心からくつろげる居心地の空間。</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon"><i class="fas fa-cookie-bite"></i></div>
+          <h3>Artisan Pastry</h3>
+          <p>毎朝焼き立て、パティシエこだわりの季節のペストリー。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU ========== -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">OUR MENU</span>
+        <h2 class="section__title">こだわりのメニュー</h2>
+        <p class="section__desc">季節の素材とスペシャルティコーヒーが奏でる、とっておきの一皿・一杯。</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="menu__tabs">
+        <button class="menu__tab active" data-tab="coffee">COFFEE</button>
+        <button class="menu__tab" data-tab="food">FOOD</button>
+        <button class="menu__tab" data-tab="seasonal">SEASONAL</button>
+      </div>
+
+      <!-- Coffee -->
+      <div class="menu__content active" id="tab-coffee">
+        <div class="menu__grid">
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&q=80" alt="エスプレッソ" />
+            </div>
+            <div class="menu__card-body">
+              <h3>Espresso</h3>
+              <p>エチオピア産豆を使用した、フローラルな香りのエスプレッソ。</p>
+              <span class="menu__price">¥480</span>
+            </div>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=500&q=80" alt="カプチーノ" />
+            </div>
+            <div class="menu__card-body">
+              <h3>Cappuccino</h3>
+              <p>なめらかなスチームミルクとエスプレッソが生む、絶妙なハーモニー。</p>
+              <span class="menu__price">¥620</span>
+            </div>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&q=80" alt="ラテ" />
+            </div>
+            <div class="menu__card-body">
+              <h3>Café Latte</h3>
+              <p>ラテアートとともに楽しむ、まろやかでリッチなラテ。</p>
+              <span class="menu__price">¥680</span>
+            </div>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&q=80" alt="アイスコーヒー" />
+            </div>
+            <div class="menu__card-body">
+              <h3>Cold Brew</h3>
+              <p>18時間かけてゆっくり抽出した、なめらかな水出しコーヒー。</p>
+              <span class="menu__price">¥750</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food -->
+      <div class="menu__content" id="tab-food">
+        <div class="menu__grid">
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500&q=80" alt="スコーン" />
+            </div>
+            <div class="menu__card-body">
+              <h3>Butter Scone</h3>
+              <p>毎朝焼き立て、国産小麦とフレッシュバターのスコーン。</p>
+              <span class="menu__price">¥380</span>
+            </div>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500&q=80" alt="フレンチトースト" />
+            </div>
+            <div class="menu__card-body">
+              <h3>French Toast</h3>
+              <p>厚切りブリオッシュを使った、贅沢なフレンチトースト。</p>
+              <span class="menu__price">¥980</span>
+            </div>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=500&q=80" alt="アボカドトースト" />
+            </div>
+            <div class="menu__card-body">
+              <h3>Avocado Toast</h3>
+              <p>熟成アボカドと自家製サワードウで作る、人気のトースト。</p>
+              <span class="menu__price">¥1,180</span>
+            </div>
+          </div>
+          <div class="menu__card">
+            <div class="menu__card-img">
+              <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&q=80" alt="サラダ" />
+            </div>
+            <div class="menu__card-body">
+              <h3>Garden Salad</h3>
+              <p>季節の野菜とフレッシュハーブを使った彩り豊かなサラダ。</p>
+              <span class="menu__price">¥880</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seasonal -->
+      <div class="menu__content" id="tab-seasonal">
+        <div class="menu__seasonal-banner">
+          <div class="menu__seasonal-text">
+            <span class="section__label">SPRING 2026</span>
+            <h3>桜とストロベリーの<br/>スペシャルメニュー</h3>
+            <p>春の訪れを祝い、桜のシロップとフレッシュストロベリーを使った期間限定メニューをご用意しました。</p>
+          </div>
+          <div class="menu__seasonal-items">
+            <div class="seasonal-item">
+              <span class="seasonal-item__name">Sakura Latte</span>
+              <span class="seasonal-item__price">¥780</span>
+            </div>
+            <div class="seasonal-item">
+              <span class="seasonal-item__name">Strawberry Tart</span>
+              <span class="seasonal-item__price">¥650</span>
+            </div>
+            <div class="seasonal-item">
+              <span class="seasonal-item__name">Cherry Blossom Pancake</span>
+              <span class="seasonal-item__price">¥1,280</span>
+            </div>
+            <div class="seasonal-item">
+              <span class="seasonal-item__name">Spring Blend Drip</span>
+              <span class="seasonal-item__price">¥580</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">GALLERY</span>
+        <h2 class="section__title">店内の雰囲気</h2>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80" alt="カフェ外観" />
+        <div class="gallery__overlay"><span>EXTERIOR</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=600&q=80" alt="カフェ内装" />
+        <div class="gallery__overlay"><span>INTERIOR</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=600&q=80" alt="コーヒー" />
+        <div class="gallery__overlay"><span>COFFEE</span></div>
+      </div>
+      <div class="gallery__item gallery__item--wide">
+        <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=900&q=80" alt="テーブル" />
+        <div class="gallery__overlay"><span>SPACE</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=600&q=80" alt="ペストリー" />
+        <div class="gallery__overlay"><span>PASTRY</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">REVIEWS</span>
+        <h2 class="section__title">お客様の声</h2>
+      </div>
+      <div class="testimonials__slider" id="testimonialSlider">
+        <div class="testimonials__track" id="testimonialTrack">
+          <div class="testimonial">
+            <div class="testimonial__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial__text">「朝の仕事前に立ち寄るのが日課になりました。バリスタさんが毎回丁寧に説明してくれて、コーヒーの奥深さに気づかせてもらいました。」</p>
+            <div class="testimonial__author">
+              <strong>Ayumi S.</strong>
+              <span>デザイナー</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial__text">「窓際の席でラテを飲みながら読書する時間が最高。静かで落ち着いた雰囲気がとても好きです。スコーンも絶品！」</p>
+            <div class="testimonial__author">
+              <strong>Kenji M.</strong>
+              <span>フリーランス</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+            <p class="testimonial__text">「友人に連れてきてもらってから虜に。コーヒーはもちろん、内装もとにかくおしゃれで写真を撮りたくなります。」</p>
+            <div class="testimonial__author">
+              <strong>Riko T.</strong>
+              <span>フォトグラファー</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__dots" id="testimonialDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACCESS ========== -->
+  <section class="access section" id="access">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">ACCESS</span>
+        <h2 class="section__title">アクセス・営業時間</h2>
+      </div>
+      <div class="access__grid">
+        <div class="access__info">
+          <div class="access__item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>住所</strong>
+              <p>東京都目黒区青葉台1-1-1<br/>ルミエールビル 1F</p>
+            </div>
+          </div>
+          <div class="access__item">
+            <i class="fas fa-train"></i>
+            <div>
+              <strong>アクセス</strong>
+              <p>東急東横線「中目黒駅」より<br/>徒歩5分</p>
+            </div>
+          </div>
+          <div class="access__item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>営業時間</strong>
+              <p>月〜金：8:00 – 20:00<br/>土・日・祝：9:00 – 21:00</p>
+            </div>
+          </div>
+          <div class="access__item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>電話番号</strong>
+              <p>03-1234-5678</p>
+            </div>
+          </div>
+          <div class="access__item">
+            <i class="fas fa-wifi"></i>
+            <div>
+              <strong>設備</strong>
+              <p>無料 Wi-Fi / 電源完備 / テラス席あり</p>
+            </div>
+          </div>
+        </div>
+        <div class="access__map">
+          <div class="map__placeholder">
+            <i class="fas fa-map-marked-alt"></i>
+            <p>東京都目黒区青葉台1-1-1</p>
+            <span>Google Maps で見る →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">RESERVATION</span>
+        <h2 class="section__title">ご予約・お問い合わせ</h2>
+        <p class="section__desc">お席のご予約やイベント貸し切りなど、お気軽にお問い合わせください。</p>
+      </div>
+      <form class="contact__form" id="contactForm">
+        <div class="form__row">
+          <div class="form__group">
+            <label for="name">お名前 *</label>
+            <input type="text" id="name" name="name" placeholder="山田 太郎" required />
+          </div>
+          <div class="form__group">
+            <label for="email">メールアドレス *</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__group">
+            <label for="date">ご希望日</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="form__group">
+            <label for="guests">人数</label>
+            <select id="guests" name="guests">
+              <option value="">選択してください</option>
+              <option>1名</option>
+              <option>2名</option>
+              <option>3〜4名</option>
+              <option>5名以上</option>
+            </select>
+          </div>
+        </div>
+        <div class="form__group">
+          <label for="message">メッセージ</label>
+          <textarea id="message" name="message" rows="5" placeholder="ご要望やご質問をご記入ください..."></textarea>
+        </div>
+        <button type="submit" class="form__submit">送信する <i class="fas fa-paper-plane"></i></button>
+      </form>
+      <div class="contact__success" id="contactSuccess">
+        <i class="fas fa-check-circle"></i>
+        <p>お問い合わせを受け付けました。<br/>2営業日以内にご連絡いたします。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__logo">CAFÉ LUMIÈRE</p>
+          <p class="footer__tagline">一杯の光が、あなたの一日を彩る。</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4>NAVIGATION</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#access">Access</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>HOURS</h4>
+          <ul>
+            <li>月〜金 08:00–20:00</li>
+            <li>土・日 09:00–21:00</li>
+            <li>祝日　 09:00–21:00</li>
+            <li>定休日なし</li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h4>NEWSLETTER</h4>
+          <p>新メニューやイベント情報をお届けします。</p>
+          <form class="newsletter__form" id="newsletterForm">
+            <input type="email" placeholder="メールアドレス" required />
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 CAFÉ LUMIÈRE. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="トップへ戻る">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
